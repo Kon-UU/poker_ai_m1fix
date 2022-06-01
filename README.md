@@ -8,6 +8,13 @@
 
 [Read the documentation]()
 
+#Setup For M1
+
+1. install requirements
+```pip install -r requirements.txt```
+2. install SciPy
+```pip install --pre -i https://pypi.anaconda.org/scipy-wheels-nightly/simple scipy```
+
 # 🤖 Poker AI
 
 This repository will contain a best effort open source implementation of a poker AI using the ideas of Counterfactual Regret.
