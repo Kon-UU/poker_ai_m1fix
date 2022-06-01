@@ -19,11 +19,11 @@ def get_package_description() -> str:
     return f"{readme}\n\n{history}"
 
 
-def get_requirements() -> List[str]:
-    """Returns all requirements for this package."""
-    with open('requirements.txt') as f:
-        requirements = f.read().splitlines()
-    return requirements
+#def get_requirements() -> List[str]:
+#    """Returns all requirements for this package."""
+#    with open('requirements.txt') as f:
+#        requirements = f.read().splitlines()
+#    return requirements
 
 
 setuptools.setup(
@@ -36,7 +36,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/fedden/poker_ai",
     packages=setuptools.find_packages(),
-    install_requires=get_requirements(),
+    #install_requires=get_requirements(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
