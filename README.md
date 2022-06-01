@@ -8,7 +8,7 @@
 
 [Read the documentation]()
 
-#Setup For M1
+# Setup For M1
 
 1. install requirements
 ```pip install -r requirements.txt```
